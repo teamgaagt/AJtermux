@@ -13,6 +13,6 @@ if [ -f "sayko" ]; then
 fi
 wget -q https://github.com/teamgaagt/AJTermux/raw/main/sayko
 sleep 1
-echo -e "${RED}SAYKOPROXY is now Installed.${ENDCOLOR}"
+echo -e "${GREEN}SAYKOPROXY is now Installed.${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./sayko${ENDCOLOR}"
 chmod +x sayko
